@@ -1,0 +1,5 @@
+version: 2
+
+models:
+  - name: v_pit_actual_customer_info
+    

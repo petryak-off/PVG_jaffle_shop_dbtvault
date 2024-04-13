@@ -34,6 +34,10 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   jaffle_shop_dbtvault:
     # Config indicated by + and applies to all files under models/example/
+    busines_vault:
+      tags:
+        - 'busines_vault'
+      materialized: view
     stage:
       tags:
         - 'stage'
